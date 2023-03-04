@@ -1,0 +1,120 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+ 
+ 
+ .body{
+    background-color: white;
+ }
+
+
+ .props{
+
+    background-image: url('props.png');
+    width: max-content;
+    height: max-content;
+    height: 230px;
+    width: 100%;
+    background-repeat: no-repeat;
+ 
+
+
+ }
+
+.props .logo{
+    margin-left: 540px;
+    margin-top: 40px;
+    height: 140px;
+    width: 190px;
+}
+ .header-2{
+    color: black;
+    
+}
+
+ .header-2 .navbar{
+    text-align: center;
+    background-color: pink;
+}
+
+.header-2 .navbar a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding:1.2rem;
+    font-size: 1rem;
+}
+
+.banner{
+
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url(banner.png);
+    width: max-content;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+
+.text{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: large;
+}
+
+h3{
+    padding-right: 690px;
+    padding-top: 160px;
+}
+
+div.text a {
+    color: black;
+    padding-right: 800px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ep{
+    margin-right: 160px;
+    display: flex ;
+    flex: 1;
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+
+.container {
+    background-color: white;
+    align-items: center; 
+    float: left;
+    width: 100%;
+  }
+  .image{
+      float: left;
+    padding: 175px;
+  }
+
+.Layers {
+    
+    float: right;
+    margin-right: 90px;
+    border-spacing: none;
+}
